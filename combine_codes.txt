@@ -1,0 +1,32 @@
+//Save this code as ReportCard.java
+public class ReportCard {
+    
+    // Method to display a message with the grade level
+    public void displayMessage(String gradeLevel) {
+        System.out.println("--- Report Card Information ---");
+        System.out.println("Report card generated for grade level: " + gradeLevel);
+        System.out.println("Good luck with your studies!");
+    }
+}
+
+
+// -------------------end of the line -----------------------
+
+//SAve this file as ReportCardTest.java
+
+import java.util.Scanner;
+
+public class ReportCardTest {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        // FIX: Added a space between 'ReportCard' and 'myReportCard'
+        ReportCard myReportCard = new ReportCard();
+
+        System.out.println("Please enter the grade level: ");
+        String levelofGrade = input.nextLine(); //read a line of text
+        System.out.println();   //outputs a blank line
+
+        myReportCard.displayMessage(levelofGrade);
+
+    }
+}
