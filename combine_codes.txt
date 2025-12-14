@@ -1,4 +1,18 @@
 //Save this code as ReportCard.java
+/*  Creating methods with arguments and return values
+
+classes-  provides blueprints for objects
+methods-  set of code refferred to by name and can be called invoked
+          at any point in a program simply by utilizing the methods name
+
+
+package- mechanism to encapsolate a group of classes, interfaces, and 
+         sub packages.
+
+
+*/
+
+
 public class ReportCard {
     
     // Method to display a message with the grade level
@@ -29,4 +43,5 @@ public class ReportCardTest {
         myReportCard.displayMessage(levelofGrade);
 
     }
+    
 }
